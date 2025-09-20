@@ -14,41 +14,42 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1758220351
+  lastShownTimestamp: 1758324685
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1758220352
+  checkedLastUpdateTimestamp: 1758324685
   lastQOTDResponse:
-    questionId: 222
-    questionText: Which of these are affected when you modify Time.timeScale?
-    answerA: Time.deltaTime, Time.realtimeSinceStartup, Time.unscaledDeltaTime, Time.timeSinceLevelLoad,
-      Time.fixedTime
-    answerB: Time.deltaTime, Time.realtimeSinceStartup, Time.timeSinceLevelLoad,
-      Time.fixedTime
-    answerC: Time.deltaTime, Time.timeSinceLevelLoad, Time.fixedTime
+    questionId: 223
+    questionText: What is the difference between Application.dataPath and Application.persistentDataPath
+      on Windows?
+    answerA: No difference on Windows
+    answerB: Application.dataPath is the install folder and Application.persistentDataPath
+      is on the Registry
+    answerC: Application.dataPath is the install folder and Application.persistentDataPath
+      is on the User Data
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1758220352
+  lastQotdTimestamp: 1758324685
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/humbleBundleAug25RealisticEnv.png
     topText: AWESOME Realistic Environments 99% OFF!
     topLink: humblebundle
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1758220352
+  lastDynamicHeaderTimestamp: 1758324685
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1758220352
+  websiteLatestMessageTimestamp: 1758324685
   websiteLatestVideos:
     videos:
+    - youTubeId: q-LGDkojs08
+      title: The BEST Systems to build to MASTER Programming Game Dev!
     - youTubeId: zQb8oq9IMZs
       title: Unity 6.3 is HERE!
     - youTubeId: 4tXBS87J0Po
       title: TOP 10 FREE NEW Assets SEPTEMBER 2025!
     - youTubeId: -LQ0C9B2bzQ
       title: Was I WRONG about Silksong?
-    - youTubeId: 8BIpWVsQFnQ
-      title: TOP 10 NEW Games, Made with Unity! (AUGUST 2025)
-  websiteLatestVideosTimestamp: 1758220352
+  websiteLatestVideosTimestamp: 1758324685
