@@ -48,13 +48,12 @@ public class CuttingCounter : BaseCounter, IHasProgress
                 {
                     if (plateKitchenObject.TryAddIngredient(GetKitchenObject().GetKitchenObjectsSO()))
                     {
-                        GetKitchenObject().DestroySelf();
+                        GameMultiplayerManager.Instance.DestroyKitchenObject(GetKitchenObject());
                     }
                 }
             }
             else
-            {
-                // Jogador não tem objeto de cozinha
+            {// Jogador não tem objeto de cozinha
                 GetKitchenObject().SetKitchenObjectParent(player);
             }
         }      

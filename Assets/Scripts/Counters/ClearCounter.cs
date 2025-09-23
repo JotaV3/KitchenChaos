@@ -26,7 +26,7 @@ public class ClearCounter : BaseCounter
                 {   // Jogador está segurando um prato
                     if (plateKitchenObject.TryAddIngredient(GetKitchenObject().GetKitchenObjectsSO()))
                     {
-                        GetKitchenObject().DestroySelf();
+                        GameMultiplayerManager.Instance.DestroyKitchenObject(GetKitchenObject());
                     }
                 }
                 else
@@ -35,7 +35,7 @@ public class ClearCounter : BaseCounter
                     {   // Aqui tem um prato
                         if (plateKitchenObject.TryAddIngredient(player.GetKitchenObject().GetKitchenObjectsSO()))
                         {
-                            player.GetKitchenObject().DestroySelf();
+                            GameMultiplayerManager.Instance.DestroyKitchenObject(GetKitchenObject());
                         }
                     }
                 }

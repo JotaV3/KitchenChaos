@@ -150,7 +150,7 @@ public class StoveCounter : BaseCounter, IHasProgress
                     {
                         GameMultiplayerManager.Instance.DestroyKitchenObject(GetKitchenObject());
 
-                        state.Value = State.Idle;
+                        SetStateIdleServerRpc();
                     }
                 }
             }
