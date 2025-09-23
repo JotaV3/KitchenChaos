@@ -14,23 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1758468679
+  lastShownTimestamp: 1758584962
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1758472417
+  checkedLastUpdateTimestamp: 1758584962
   lastQOTDResponse:
-    questionId: 223
-    questionText: What is the difference between Application.dataPath and Application.persistentDataPath
-      on Windows?
-    answerA: No difference on Windows
-    answerB: Application.dataPath is the install folder and Application.persistentDataPath
-      is on the Registry
-    answerC: Application.dataPath is the install folder and Application.persistentDataPath
-      is on the User Data
+    questionId: 224
+    questionText: What Types can you natively store with PlayerPrefs?
+    answerA: Anything
+    answerB: string, int, float, bool
+    answerC: string, int, float
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1758472417
+  lastQotdTimestamp: 1758584962
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/codeMonkeyToolkit50Off.png
     topText: Get my Toolkit! 40 Tools and Elements to help you make games BETTER
@@ -38,19 +35,19 @@ MonoBehaviour:
     topLink: toolkit
     bottomText: My 10+ Years of C# Knowledge in 1 Course!
     bottomLink: csharpcourse
-  lastDynamicHeaderTimestamp: 1758472417
+  lastDynamicHeaderTimestamp: 1758584962
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1758472417
+  websiteLatestMessageTimestamp: 1758584962
   websiteLatestVideos:
     videos:
+    - youTubeId: WvrS00H81xA
+      title: Should Silksong have an EASY MODE?
+    - youTubeId: Rr-jAQ_Qe04
+      title: TOP 10 NEW Systems and Tools SEPTEMBER 2025! | Unity Asset Store
     - youTubeId: q-LGDkojs08
       title: The BEST Systems to build to MASTER Programming Game Dev!
     - youTubeId: zQb8oq9IMZs
       title: Unity 6.3 is HERE!
-    - youTubeId: 4tXBS87J0Po
-      title: TOP 10 FREE NEW Assets SEPTEMBER 2025!
-    - youTubeId: -LQ0C9B2bzQ
-      title: Was I WRONG about Silksong?
-  websiteLatestVideosTimestamp: 1758472417
+  websiteLatestVideosTimestamp: 1758584962
