@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -23,6 +24,8 @@ public class OptionsUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI interactAlternateText;
     [SerializeField] private Transform pressToRebindKey;
 
+    private Action onCloseButtonAction;
+
     private void Awake()
     {
         Instance = this;
@@ -40,6 +43,7 @@ public class OptionsUI : MonoBehaviour
         backButton.onClick.AddListener(() =>
         {
             Hide();
+            onCloseButtonAction?.Invoke();
         });
 
         moveUpButton.onClick.AddListener(() => { RebindBinding(GameInput.Binding.MoveUp); });
@@ -78,8 +82,9 @@ public class OptionsUI : MonoBehaviour
         interactAlternateText.text = GameInput.Instance.GetBindingText(GameInput.Binding.InteractAlternate);
     }
 
-    public void Show()
+    public void Show(Action onCloseButtonAction)
     {
+        this.onCloseButtonAction = onCloseButtonAction;
         gameObject.SetActive(true);
     }
 
