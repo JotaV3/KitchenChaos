@@ -1,8 +1,9 @@
+using System;
 using Unity.Netcode;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class HostDisconnectUI : NetworkBehaviour
+public class HostDisconnectUI : MonoBehaviour
 {
     [SerializeField] private Button playAgainButton;
 
@@ -24,7 +25,7 @@ public class HostDisconnectUI : NetworkBehaviour
 
     private void NetworkManager_OnClientDisconnectCallback(ulong clientId)
     {
-        if(clientId == NetworkManager.ServerClientId)
+        if(clientId == NetworkManager.Singleton.LocalClientId)
         {
             Show();
         }

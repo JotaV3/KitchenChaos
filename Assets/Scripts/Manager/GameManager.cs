@@ -44,12 +44,7 @@ public class GameManager : NetworkBehaviour
         if (IsServer)
         {
             NetworkManager.Singleton.OnClientDisconnectCallback += NetworkManager_OnClientDisconnectCallback;
-        }       
-    }
-
-    private void NetworkManager_OnClientDisconnectCallback(ulong clientId)
-    {
-        autoTestGamePausedState = true;
+        }
     }
 
     private void Awake()
@@ -104,6 +99,11 @@ public class GameManager : NetworkBehaviour
             autoTestGamePausedState = false;
             TestGamePausedState();
         }
+    }
+
+    private void NetworkManager_OnClientDisconnectCallback(ulong clientId)
+    {
+        autoTestGamePausedState = true;
     }
 
     private void IsGamePaused_OnValueChanged(bool previousValue, bool newValue)
