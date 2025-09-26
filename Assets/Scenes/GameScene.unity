@@ -1587,7 +1587,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f16db675aef330e4da37130e45be5ce8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ShowTopMostFoldoutHeaderGroup: 1
   playAgainButton: {fileID: 560570461}
 --- !u!1 &127869771
 GameObject:
@@ -5644,7 +5643,7 @@ MonoBehaviour:
       - {fileID: 11400000, guid: 0fd0a66e696c4bd4995cda4827cf38ad, type: 2}
     TickRate: 30
     ClientConnectionBufferTimeout: 10
-    ConnectionApproval: 0
+    ConnectionApproval: 1
     ConnectionData: 
     EnableTimeResync: 0
     TimeResyncInterval: 30
