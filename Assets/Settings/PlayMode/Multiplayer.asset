@@ -21,14 +21,14 @@ MonoBehaviour:
     - Main Editor|0_run
     - Main Editor|0_deploy
     m_PlayerTag: 
-    m_InitialScene: {fileID: 102900000, guid: 99c9720ab356a0642a771bea13969a05, type: 3}
+    m_InitialScene: {fileID: 102900000, guid: b0f589ca1f4362741a2dfda57bfefa7f, type: 3}
   m_EditorInstances: []
   m_LocalInstances:
   - Name: Player2
-    <CorrespondingNodeId>k__BackingField: Instance - Run
+    <CorrespondingNodeId>k__BackingField: Player2 - Run
     m_Nodes:
-    - Instance - Build
-    - Instance - Run
+    - Player2 - Build
+    - Player2 - Run
     m_BuildProfile: {fileID: 11400000, guid: dda242b05820a484199e8ccf81150343, type: 2}
     advancedConfiguration:
       m_StreamLogsToMainEditor: 1

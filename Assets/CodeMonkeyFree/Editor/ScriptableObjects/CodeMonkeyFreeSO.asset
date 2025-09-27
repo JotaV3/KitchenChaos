@@ -14,11 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   currentVersion: 1.01
   subtype: kitchenchaos
-  lastShownTimestamp: 1758810912
+  lastShownTimestamp: 1758900162
   lastUpdateResponse:
     version: 1.01
     versionUrl: https://unitycodemonkey.com
-  checkedLastUpdateTimestamp: 1758810912
+  checkedLastUpdateTimestamp: 1758900162
   lastQOTDResponse:
     questionId: 225
     questionText: 'Does this code have an error?
@@ -32,7 +32,7 @@ MonoBehaviour:
     answerC: Only if GameObject does not have a Transform component
     answerD: 
     answerE: 
-  lastQotdTimestamp: 1758810912
+  lastQotdTimestamp: 1758900162
   lastDynamicHeaderResponse:
     topImageUrl: https://codemonkeyexternal.blob.core.windows.net/external/Misc/codeMonkeyToolkit50Off.png
     topText: Get my Toolkit! 40 Tools and Elements to help you make games BETTER
@@ -40,19 +40,19 @@ MonoBehaviour:
     topLink: toolkit
     bottomText: Synty Humble Bundle is FINALLY BACK! 97% OFF dont miss it!
     bottomLink: humblebundle
-  lastDynamicHeaderTimestamp: 1758810912
+  lastDynamicHeaderTimestamp: 1758900162
   websiteLatestMessage:
     text: <a href="https://cmonkey.co/freecourses">Check out all my FREE courses!
       Click here!</a>
-  websiteLatestMessageTimestamp: 1758810912
+  websiteLatestMessageTimestamp: 1758900162
   websiteLatestVideos:
     videos:
+    - youTubeId: 5GqRR8-yYvQ
+      title: How I find AWESOME Game Dev stuff!
     - youTubeId: WvrS00H81xA
       title: Should Silksong have an EASY MODE?
     - youTubeId: Rr-jAQ_Qe04
       title: TOP 10 NEW Systems and Tools SEPTEMBER 2025! | Unity Asset Store
     - youTubeId: q-LGDkojs08
       title: The BEST Systems to build to MASTER Programming Game Dev!
-    - youTubeId: zQb8oq9IMZs
-      title: Unity 6.3 is HERE!
-  websiteLatestVideosTimestamp: 1758810912
+  websiteLatestVideosTimestamp: 1758900162
