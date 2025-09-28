@@ -418,6 +418,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 959088362074621706, guid: 1c5dda3c7cd3cf742afcade5419faeab, type: 3}
+      propertyPath: m_Animator
+      value: 
+      objectReference: {fileID: 152231607}
     - target: {fileID: 3294758250785316822, guid: 1c5dda3c7cd3cf742afcade5419faeab, type: 3}
       propertyPath: m_CastShadows
       value: 1
@@ -527,6 +531,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c5dda3c7cd3cf742afcade5419faeab, type: 3}
+--- !u!95 &152231607 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 9074148648740278029, guid: 1c5dda3c7cd3cf742afcade5419faeab, type: 3}
+  m_PrefabInstance: {fileID: 152231606}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &240326645
 GameObject:
   m_ObjectHideFlags: 0

@@ -257,5 +257,5 @@ public class GameManager : NetworkBehaviour
     public float GetGamePlayingTimerNormalized()
     {
         return 1 - (gamePlayingTimer.Value / gamePlayingTimerMax);
-    }   
+    }
 }
